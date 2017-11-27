@@ -1,7 +1,10 @@
 * {
   background-color: #f1f1f1;
   font-style: Arial; }
+body{
+  padding: 10%;
 
+}
 table {
   width: 100%;
   padding: 0; }
@@ -38,7 +41,8 @@ table.table-right-Up {
     line-height: 1px; }
 
 .alignRight {
-  text-align: right; }
+  text-align: right;
+line-height: 5px;}
 
 .alignLeft {
   text-align: left; }
