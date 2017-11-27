@@ -1,34 +1,151 @@
 * {
-  background-color:#f1f1f1 ;
-  color: #b7b7b7;
-  width:  100%;
+  background-color:#f1f1f1;
+  font-style: Arial;
 }
-body, div, td, th, tr {
-  border: 1px solid black;
+  body, , td, th, tr {
+  }
+  table{
+    width: 100%;
+    padding: 0;
+
+  }
+  td.Vertical{
+    vertical-align: top;
+  }
+  table.table-left{
+    padding-bottom: 50px;
+    width: 500px;
+    td.date {
+      font-size: 20px;
+      font-weight: bold;
+      text-align: left;
+      vertical-align: top;
+      color: black;
+      width: 30%;
+
+    }
+    td.description{
+      width: 50%;
+      line-height: 1;
+      vertical-align: top;
+      padding-bottom: 30px;
+}
+    h3{
+      font-size: 1.5em;
+      font-weight: bolder;
+      vertical-align: top;
+
+    }
+    h4{
+      font-weight: bold;
+      line-height: 1px;
+    }
+
+  }
+  table.table-right-Up{
+    line-height: 15px;
+    h4{
+      line-height: 1px;
+    }
+  }
+
+
+
+.alignRight{
+  text-align: right;
+}
+.alignLeft{
+  text-align: left;
+
 }
 
-h1, h3{
+.space1{
+  padding-top: -100px;
+  width: 50%;
+  height: 70px;
+  vertical-align: top;
+}
+.space2{
+  width: 50%;
+  height: 100px;
+  vertical-align: top;
+
+}
+.Resume h1{
+  width: 150px;
+  height: 150px;
+  margin-left: 10%;
+  text-align:center;
+  padding-top: 80px;
+
+}
+div h1 {
+
+    background-color: #619bdd;
+    border: solid #619bdd ;
+    color: white;
+}
+.WORK h1{
+  width: 150px;
+  height: 150px;
+  text-align:center;
+  padding-top: 40px;
+  transform: rotate(-70deg);
+  margin-right: -60px;
+  opacity: 0.6;
+
+}
+.PLAY h1{
+  width: 150px;
+  height: 150px;
+  text-align:center;
+  padding-top: 80px;
+  transform: rotate(-70deg);
+  opacity: 0.6;
+
+}
+hr{
+  display: block;
+   margin-top: 0.5em;
+   margin-bottom: 0.5em;
+   margin-left: auto;
+   margin-right: auto;
+   border-style: inset;
+   border-width: 3px;
+   color: #d4d9ee;
+
+}
+.footer{
+    background-color: #2693fb;
+   color: blue;
+  }
+
+
+h1, h3, h5{
   color: #3f8fd3;
 }
 
-td.date {
-  font-weight: bold;
-  color: black;
-}
+
 h4{
   color: black;
+  font-size: 15px;
 }
 h2{
   font-weight: normal;
 }
-th.name{
+td.name{
+  padding-top: 20px;
   text-align: left;
+  line-height: 40px;
   h1{
-    font-size: 50px;
+    font-size: 5em;
+    font-weight: bolder;
 
   }
   h2{
-    font-size: 20px;
+    font-size: 2em;
+    font-weight:lighter;
+
   }
 
 }
@@ -42,7 +159,7 @@ ul{
   text-decoration: none;
   font-size: 15px;
   text-align: left;
-  tex
+
 
 
     i{
@@ -57,23 +174,4 @@ ul{
         color: #b9b9b9;
         }
       }
-    }
-
-    table.Work{
-
-      td.date{
-        width: 100px;
-        text-align: left;
-        color: black;
-      }
-      td.description{
-        width: 400px;
-      }
-      td.cpt{
-        width: 20%;
-      }
-      td.lvl{
-        width: 30%;
-        height: 100%;
-        }
     }
